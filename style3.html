@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+
+        .title {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        #menu {
+            margin: 20px 0;
+        }
+
+        #menulist {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        #menulist li {
+            display: inline;
+        }
+
+        #menulist li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #555;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        #footer {
+            background-color: #f4f4f4;
+            padding: 15px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+        }
+
+        #footer h3 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+
+        #bottom {
+            font-size: 80%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Welcome to LSJ's Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <div id="menu">
+        <ul id="menulist">
+            <li><a href="style1.html">Stylesheet 1</a></li>
+            <li><a href="style2.html">Stylesheet 2</a></li>
+            <li class="active"><a href="style3.html">Stylesheet 3</a></li>
+            <li><a href="style4.html">Stylesheet 4</a></li>
+            <li><a href="nostyle.html">No Stylesheet</a></li>
+        </ul>
+    </div>
+    <h1 class="title">Same Page Different Stylesheets</h1>
+    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change
+        the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following
+        links:
+        <br>
+        <a>Stylesheet 1</a> ,
+        <a>Stylesheet 2</a> ,
+        <a>Stylesheet 3</a> ,
+        <a>Stylesheet 4</a> .
+    </p>
+    <h2 class="title">No Styles</h2>
+    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page
+        looks like with no stylesheet:
+        <br>
+        <a href="nostyle.html">No Stylesheet</a>.
+    </p>
+    <div id="footer">
+        <h3>Side-Bar</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat.</p>
+    </div>
+    <div id="bottom">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+        accumsan et
+        iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+        facilisi.
+    </div>
+</body>
+
+</html>
